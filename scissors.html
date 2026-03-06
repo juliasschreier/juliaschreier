@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edward Scissorhands — Julia Schreier</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif;
+background:#f4f4f4;
+color:#111;
+
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+/* NAV */
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:40px 0;
+}
+
+.logo img{
+width:30%;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#f19215;
+margin-left:30px;
+font-size:17px;
+transition:opacity .3s ease;
+}
+
+.nav-links a:hover{
+opacity:.5;
+}
+
+/* PROJECT INTRO */
+.project-intro{
+padding:100px 0;
+display:grid;
+grid-template-columns:1.2fr 1fr;
+gap:60px;
+align-items:start;
+}
+
+.project-intro img{
+width:100%;
+border-radius: 0px;
+margin-top: -50px;
+margin-top: -90px;
+
+}
+
+.project-text h1{
+font-size:35px;
+font-weight:300;
+margin-bottom:20px;
+}
+
+.project-text p{
+color:#555;
+font-size:15px;
+margin-bottom:20px;
+max-width:600px;
+line-height:1.6;
+}
+
+/* MAIN IMAGE */
+.main-image{
+
+padding-bottom:100px;
+margin-top: -120px;
+
+}
+
+.main-image p1{
+color:#555;
+font-size:10px;
+line-height: 1;
+
+}
+
+.main-image img{
+margin-top: 50px;
+width:100%;
+border-radius:0px;
+line-height: 1;
+
+}
+
+/* IDEATION SECTION */
+.ideation{
+padding-bottom:120px;
+}
+
+.ideation h2{
+font-weight:300;
+margin-bottom:40px;
+font-size:28px;
+}
+
+.ideation-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:40px;
+}
+
+.ideation-grid img{
+width:100%;
+border-radius:0px;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:40px 0;
+color:#777;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+.project-intro{
+grid-template-columns:1fr;
+}
+
+.project-text h1{
+font-size:28px;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<nav>
+    <div class="logo"><a href="index.html">
+        <img src="images/logo.png">
+    </a></div>
+
+<div class="nav-links">
+<a href="index.html">Work</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+
+
+<!-- INTRO -->
+<section class="project-intro">
+
+<img src="images/scissorwebmock.png" alt="Project image">
+
+<div class="project-text">
+<h1>Edward Scissorhands</h1>
+
+<p>
+    This coding project involved creating a website inspired by Edward Scissorhands, focusing on its aesthetics through color, typography, and layout. Using HTML and CSS, I applied the inverse hover feature to emphasize the film’s theme of isolation.
+</p>
+
+<p>
+    I drew inspiration from paper-cut collages and a dramatic black-and-white aesthetic to reflect Edward’s “cutting” nature. The website included a homepage, an information page, the movie script, and an “About the Movie” section, offering a cohesive and immersive experience.
+</div>
+
+</section>
+
+
+<!-- MAIN FEATURE IMAGE -->
+<section class="main-image">
+    <p1>Edward Scissorhands Site
+        <br>2025
+        <br>HTML and CSS</p1>
+<a href="file:///Users/juliaschreier/Desktop/site/studio/studio%20es/index.html">
+    <img src="images/scissors.mp4">
+</a>
+<p>Click this clip to experience Edward Scissorhands website!</p>
+
+</section>
+
+
+<!-- SKETCHES + IDEATION -->
+<section class="ideation">
+
+<h2>Sketches</h2>
+
+<div class="ideation-grid">
+
+<img src="images/eshsketch.png">
+
+
+
+</div>
+
+</section>
+
+
+<footer>
+© 2026 Julia Schreier — All Rights Reserved
+</footer>
+
+</div>
+
+</body>
+</html>

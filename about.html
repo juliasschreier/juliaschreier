@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Julia Schreier</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    background-color: #f4f4f4;
+    color: #111;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.logo img {
+    width: 30%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #f19215;
+    margin-left: 30px;
+    font-size: 17px;
+    transition: opacity 0.3s ease;
+}
+
+.nav-links a:hover {
+    opacity: 0.5;
+}
+
+/* About Section */
+.about {
+    margin-top: -50px;
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.about img {
+    width: 100%;
+    border-radius: 0px;
+}
+
+.about h1 {
+    margin-top: -20px;
+    font-size: 35px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 15px;
+    font-weight: lighter;
+    max-width: 700px;
+}
+
+/* Info blocks */
+.info {
+    margin-top: 80px;
+    margin-left: -300px;
+}
+
+.info h3 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 15px;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    padding: 40px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .nav-links a {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    .about h1 {
+        font-size: 30px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<nav>
+    <div class="logo"><a href="index.html">
+        <img src="images/logo.png">
+    </a></div>
+    <div class="nav-links">
+        <a href="index.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<section class="about">
+
+    <!-- Replace with your portrait -->
+    <img src="images/mephoto2.png" alt="Julia Schreier">
+
+    <div>
+        <h1>About Me</h1>
+
+        <p>
+            Hi, I’m Julia Schreier — a third-year Communication Design student at Parsons School of Design. I’m originally from Brazil, spent eight years living in the Bahamas, and now call New York City home. These diverse environments have shaped my identity and continue to inspire the work I create.
+        </p>
+
+        <p>
+            My focus is on graphic design, including packaging, advertising, UI/UX, web design, and more. I’ve been passionate about design since I was young, and that passion deepened after attending a pre-college program at the Rhode Island School of Design. I strive to create thoughtful design solutions that clearly communicate ideas and intentions.
+
+        </p>
+
+        <p>
+            At Parsons, I’m expanding my understanding of design theory and craft — learning how to combine words, images, and ideas to visually convey messages and human experiences across mediums. My interests include typography, interaction design, and coding, and I’m currently building skills in branding, editorial design, digital products, type design, motion graphics, and spatial graphics.
+
+        </p>
+        <p>
+            Beyond design, music has always been an important outlet for me. I’m also passionate about making a difference in people’s lives and have actively participated in various social volunteering events and projects. In the future, I hope to apply my design skills to initiatives that create meaningful impact.
+        </p>
+        <p>
+            This portfolio is a reflection of my journey—thank you for exploring it!
+        </p>
+       
+        <div class="info">
+            <h3>Location</h3>
+            <p>Copenhagen, Denmark</p>
+        </div>
+
+        <div class="info">
+            <h3>Skills</h3>
+            <p>
+                Branding · Typography · Editorial Design · Web Design ·
+                UI/UX · Creative Coding
+            </p>
+        </div>
+
+        <div class="info">
+            <h3>Contact</h3>
+            <p>julia@email.com</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Julia Schreier — All Rights Reserved
+</footer>
+
+</div>
+
+</body>
+</html>

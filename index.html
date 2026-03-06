@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Julia Schreier — Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    background-color: #f4f4f4;
+    color: #111;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.logo {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.logo img {
+    width: 30%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #f19215;
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: 300;
+    transition: opacity 0.3s ease;
+}
+
+.nav-links a:hover {
+    opacity: 0.5;
+
+}
+
+/* Hero */
+.hero {
+    padding: 100px 0;
+    margin-left: 300px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 300;
+    max-width: 700px;
+    color: #555;
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+    max-width: 500px;
+}
+
+/* Work Section */
+.work {
+    padding: 60px 0 120px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.project {
+    background: white;
+    padding: 20px;
+    border-radius: 0px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: #555;
+}
+
+.project:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 0px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.project p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    padding: 40px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .nav-links a {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<nav>
+    <div class="logo"><img src="images/logo.png"><a href="main.html"></a></div>
+    <div class="nav-links">
+        <a href="#section1">Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <h1>Graphic Designer focused on visual identity, typography, and digital experiences.</h1>
+    <p>I design thoughtful visual systems that transform ideas, culture, and experience into clear, meaningful communication.</p>
+</section>
+
+<section class="work" id="section1">
+    <div class="grid">
+       <a href="combinature.html" class="project">
+        <img src="images/combinature2.jpeg" alt="">
+        <h3>Combinature</h3>
+        <p>Visual system and 3D Exploration</p>
+        </a>
+
+        <a href="subway.html" class="project">
+            <img src="images/subwaywebmock.png" alt="">
+            <h3>Canvas Bellow the Concrete</h3>
+            <p>Editorial and Web design</p>
+        </a>
+
+        
+
+        <a href="wiki.html" class="project">
+            <img src="images/brazilmag.png" alt="">
+            <h3>Wikibook: Brazil</h3>
+            <p>Editorial Design and Typography</p>
+        </a>
+
+        <a href="rosh.html" class="project">
+            <img src="images/roshi.jpeg" alt="">
+            <h3>Rosh Hashanah</h3>
+            <p>Brand identity and visual system</p>
+        </a>
+
+        <a href="lage.html" class="project">
+            <img src="images/lagemuseum.png" alt="">
+            <h3>Lagé: Museum of Collage</h3>
+            <p>Brand identity and visual system: Promotion & Packaging</p> 
+        </a>
+
+     
+
+        <a href="love.html" class="project">
+            <img src="images/lovemok.png" alt="">
+            <h3>Love Anonymous</h3>
+            <p>Web Archive Design and Social Media Exploration</p>
+        </a>
+
+        <a href="jazz.html" class="project">
+            <img src="images/record.png" alt="">
+            <h3>The Rhythm of Jazz Lines - Copenhagen Jazz Festival</h3>
+            <p>Brand identity and visual system: Promotion and Packaging</p>
+        </a>
+
+        <a href="scissors.html" class="project">
+            <img src="images/scissorwebmock.png" alt="">
+            <h3>Edward Scissorhands</h3>
+            <p>Web design and Typography</p>
+        </a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Julia Schreier — All Rights Reserved
+</footer>
+
+</div>
+
+</body>
+</html>

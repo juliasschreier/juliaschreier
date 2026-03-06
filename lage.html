@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lagé: Museum of Collage — Julia Schreier</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif;
+background:#f4f4f4;
+color:#111;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+/* NAV */
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:40px 0;
+}
+
+.logo img{
+width:30%;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#f19215;
+margin-left:30px;
+font-size:17px;
+transition:opacity .3s ease;
+}
+
+.nav-links a:hover{
+opacity:.5;
+}
+
+/* PROJECT INTRO */
+.project-intro{
+padding:100px 0;
+display:grid;
+grid-template-columns:1.2fr 1fr;
+gap:60px;
+align-items:start;
+}
+
+.project-intro img{
+width:100%;
+border-radius:0px;
+margin-top: -130px;
+}
+
+.project-text h1{
+font-size:35px;
+font-weight:300;
+margin-bottom:20px;
+}
+
+.project-text p{
+color:#555;
+font-size:15px;
+margin-bottom:20px;
+max-width:600px;
+line-height:1.6;
+}
+
+/* MAIN IMAGE */
+.main-image{
+padding-bottom:100px;
+margin-top: -120px;
+line-height: 1;
+}
+
+.main-image p1{
+color:#555;
+font-size:10px;
+line-height: 1;
+
+}
+
+.main-image img{
+width:100%;
+border-radius:16px;
+margin-top: 60px;
+}
+
+/* IDEATION SECTION */
+.ideation{
+padding-bottom:120px;
+}
+
+.ideation h2{
+font-weight:300;
+margin-bottom:40px;
+font-size:28px;
+}
+
+.ideation-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:40px;
+}
+
+.ideation-grid img{
+width:100%;
+border-radius:12px;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:40px 0;
+color:#777;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+.project-intro{
+grid-template-columns:1fr;
+}
+
+.project-text h1{
+font-size:28px;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<nav>
+    <div class="logo"><a href="index.html">
+        <img src="images/logo.png">
+    </a></div>
+
+<div class="nav-links">
+<a href="index.html">Work</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+
+
+<!-- INTRO -->
+<section class="project-intro">
+
+<img src="images/lagemuseum.png" alt="Project image">
+
+<div class="project-text">
+<h1>Lagé: Museum of Collage</h1>
+
+<p>
+    This project focused on promotion, packaging, and design for a conceptual collage museum opening. I developed a cohesive visual identity by creating promotional materials, including posters, business cards, and potential packaging designs for the museum’s gift shop. Inspired by the art of collage, I explored how to balance a bold and visually dynamic theme while maintaining effective communication with the target audience.
+</p>
+
+<p>
+    Through careful consideration of typography, color schemes, and layout, I ensured that the designs captured the museum’s creative spirit while remaining functional as promotional materials. This project allowed me to experiment with combining chaotic, layered visuals with clear, engaging messaging.
+</p>
+
+
+
+</div>
+
+</section>
+
+
+<!-- MAIN FEATURE IMAGE -->
+<section class="main-image">
+    <p1>
+        Lagé: Museum of Collage
+        <br>Promotion and packaging
+        <br>2022
+        <br>Adobe Illustrator
+        <br>Printed on paper
+    </p1>
+<img src="images/lageposters.png">
+<img src="images/lagecards.png">
+</section>
+
+
+<!-- SKETCHES + IDEATION -->
+<section class="ideation">
+
+<h2>2D Mockups</h2>
+
+<div class="ideation-grid">
+
+<img src="images/lagesketch1.png">
+<img src="images/lagesketch2.png">
+<img src="images/lagesketch3.png">
+
+
+</div>
+
+</section>
+
+
+<footer>
+© 2026 Julia Schreier — All Rights Reserved
+</footer>
+
+</div>
+
+</body>
+</html>
